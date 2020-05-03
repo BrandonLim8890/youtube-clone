@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+}
+
+nav {
+    background-color: blue;
+    height: 75px;
+    width: auto;
+}
+
+.body {
+    margin: 20px 10px;
+    float: left;
+    width: 1280px;
+    height: 1000px;
+}
+
+.video {
+    background: red;
+    width: auto;
+    height: 720px;
+}
+
+.comments {
+    background: purple;
+    height: inherit;
+    width: inherit;
+}
+
+.suggested {
+    margin: 20px 10px;
+    background: green;
+    height: 1220px;
+    width: 300px;
+    float: left;
+}
