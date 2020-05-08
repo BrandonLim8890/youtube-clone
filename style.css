@@ -1,17 +1,73 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #1f1f1f;
+}
+
+body {
+    background-color: #181818;
 }
 
 nav {
-    background-color: blue;
-    height: 75px;
+    background-color: #202020;
+    height: 70px;
     width: auto;
 }
 
+nav.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+nav .menu,
+nav .youtube {
+    vertical-align: middle;
+    margin-left: 20px;
+    background-color: #202020;
+}
+
+form {
+    vertical-align: middle;
+    display: inline-block;
+    width: 40%;
+    height: 30px;
+    margin-left: 15%;
+    border: solid 0.7px #3b3b3b;
+}
+
+form .search {
+    padding-left: 2%;
+    height: 100%;
+    width: 88%;
+    float: left;
+    font-size: 16px;
+    border: none;
+    color: white;
+    background-color: #181818;
+}
+
+form .search-btn {
+    float: left;
+    width: 10%;
+    height: 100%;
+    color: #4b4b4b;
+    background-color: #313131;
+    font-size: 17px;
+    border: none;
+    border-left: solid 0.7px #3b3b3b;
+    cursor: pointer;
+}
+
+form .search-btn i {
+    background-color: #313131;
+}
+
+form .search-btn:hover {
+    color: #585858;
+}
+
 .body {
-    margin: 20px 10px;
+    margin: 2%;
     float: left;
     width: 1280px;
     height: 1000px;
@@ -30,7 +86,7 @@ nav {
 }
 
 .suggested {
-    margin: 20px 10px;
+    margin: 2% auto;
     background: green;
     height: 1220px;
     width: 300px;

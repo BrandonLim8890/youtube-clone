@@ -4,18 +4,26 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <title>Youtube Clone</title>
 </head>
 
 <body>
     <nav>
-        <img src="./images/menu.svg" alt="Menu icon">
+        <span class="helper"></span
+      ><img src="./images/menu.svg" alt="Menu icon" class="menu" />
+      <span class="helper"></span
+      ><img src="./images/youtube.svg" alt="Youtube icon" class="youtube" />
+      <form action="submit">
+        <input type="text" placeholder="Search" class="search" />
+        <button class="search-btn"><i class="fa fa-search"></i></button>
+      </form>
+      <img src="./images/video.svg" alt="Video icon" class="video-icon" />
     </nav>
     <div class="body">
-        <div class="video"></div>
-        <div class="comments"></div>
+      <div class="video"></div>
+      <div class="comments"></div>
     </div>
     <article class="suggested"></article>
-</body>
-
+  </body>
 </html>
