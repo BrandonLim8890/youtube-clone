@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -67,13 +68,14 @@ form .search-btn:hover {
 }
 
 .icon-container {
-  vertical-align: middle;
-  display: inline-block;
-  margin-left: 18%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 18%;
 }
 
 .icon {
-  margin-right: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
 }
 
 .body {
@@ -84,9 +86,46 @@ form .search-btn:hover {
 }
 
 .video {
-    background: red;
+    color: #909090;
     width: auto;
-    height: 480px;
+    height: 580px;
+    font-size: 14px;
+}
+
+.info {
+    height: 200px;
+    border-top: 0.5px #5e5e5e solid;
+    border-bottom: 0.5px #5e5e5e solid;
+}
+
+.video h2 {
+    font-weight: 500;
+    margin-top: 2%;
+    color: white;
+}
+
+.video p {
+    display: inline;
+}
+
+.video .video-btns {
+    float: right;
+}
+
+.video-btn {
+    margin: 5px;
+}
+
+.info {
+    color: #909090;
+    padding: 10px 0;
+}
+
+.info p,
+h5 {
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .comments {

@@ -5,12 +5,13 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Youtube Clone</title>
 </head>
 
 <body>
     <nav>
-      <span class="helper"></span
+        <span class="helper"></span
       ><img src="./images/menu.svg" alt="Menu icon" class="menu" />
       <span class="helper"></span
       ><img src="./images/youtube.svg" alt="Youtube icon" class="youtube" />
@@ -19,17 +20,35 @@
         <button class="search-btn"><i class="fa fa-search"></i></button>
       </form>
       <span class="helper"></span>
-      <div class="icon-container">
-        <img src="./images/video.svg" alt="Video icon" class="video-icon icon" />
-        <img src="./images/app.svg" alt="App icon" class="app-icon icon">
-      </div>
+        <div class="icon-container">
+            <img src="./images/video.svg" alt="Video icon" class="video-icon icon" />
+            <img src="./images/app.svg" alt="App icon" class="app-icon icon">
+            <img src="./images/bell.png" alt="Bell icon" class="bell-icon icon">
+            <img src="./images/icons8-user-24.png" alt="user icon" class="user-icon icon">
+        </div>
     </nav>
 
-
     <div class="body">
-      <div class="video"></div>
-      <div class="comments"></div>
+        <div class="video">
+            <iframe width="720" height="480" src="https://www.youtube.com/embed/woYt3bc5gvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2>Study Music: Relaxing Piano Jazz</h2>
+            <br>
+            <p>2,726 watching now - Started streaming on May 7, 2020</p>
+            <div class="video-btns">
+                <img src="./images/icons8-thumbs-up-24.png" alt="like button" class="like video-btn">
+                <img src="./images/icons8-thumbs-down-24.png" alt="unlike" class="unlike video-btn">
+                <img src="./images/icons8-share-3-24.png" alt="share" class="share video-btn">
+                <img src="./images/icons8-save-search-24.png" alt="save" class="save video-btn">
+            </div>
+        </div>
+        <div class="info">
+            <img src="./images/user-img.png" alt="user-img" class="user-img">
+            <h5>This is music</h5>
+            <p>4.75k subscribers</p>
+        </div>
+        <div class="comments"></div>
     </div>
     <article class="suggested"></article>
-  </body>
+</body>
+
 </html>
