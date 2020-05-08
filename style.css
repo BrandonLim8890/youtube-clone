@@ -66,17 +66,27 @@ form .search-btn:hover {
     color: #585858;
 }
 
+.icon-container {
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 18%;
+}
+
+.icon {
+  margin-right: 20px;
+}
+
 .body {
     margin: 2%;
     float: left;
-    width: 1280px;
+    width: 720px;
     height: 1000px;
 }
 
 .video {
     background: red;
     width: auto;
-    height: 720px;
+    height: 480px;
 }
 
 .comments {
